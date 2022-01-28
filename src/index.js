@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-import one from './modules/one';
-import two from './modules/two';
-one();
-two();
+//import oneModule from './modules/one';
+//import twoModule from './modules/two';
+//oneModule();
+//twoModule();
