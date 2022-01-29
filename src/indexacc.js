@@ -1,6 +1,0 @@
-'use strict';
-
-//console.log('index');
-const accordion1 = new GraphAccordion('.accordion-1', {
-  speed: 500,
-});
