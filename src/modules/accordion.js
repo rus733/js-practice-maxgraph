@@ -18,7 +18,6 @@ const accordion = () => {
           control.setAttribute('aria-expanded', true);
           content.setAttribute('aria-hidden', false);
           content.style.maxHeight = content.scrollHeight + 'px';
-          //content.style.opacity = '1';
         } else {
           control.setAttribute('aria-expanded', false);
           content.setAttribute('aria-hidden', true);
