@@ -43,7 +43,7 @@ class GraphAccordion {
   }
 
   event() {
-    //console.log('event!');
+    console.log('event!');
     //console.log(this.options.speed);
     if (this.accordion) {
       this.accordion.addEventListener('click', (e) => {
