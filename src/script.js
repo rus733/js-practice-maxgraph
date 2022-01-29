@@ -6,7 +6,7 @@ class GraphAccordion {
       isOpen: () => {},
       isClose: () => {},
       speed: 300,
-      // classes: {
+      // classes: {// здесь можно указать классы
       //
       // }
     };
@@ -18,8 +18,8 @@ class GraphAccordion {
   }
 
   event() {
-    console.log('event!');
-    //console.log(this.options.speed);
+    //console.log('event!');
+    //console.log(this.options.speed);//проверка доступа к опциям
     if (this.accordion) {
       this.accordion.addEventListener('click', (e) => {
         this.accordion.classList.toggle('open');
